@@ -23,7 +23,7 @@ foreach ($extensionsArr as $key => $val) {
 }
 
 //todo test info
-die('extensions installed');
+echo('extensions installed');
 
 //todo 根据环境变量获取相应配置
 //$app = new Yaf_Application(APP_PATH . "/conf/application.ini", RUN_ENVIRON);
