@@ -4,7 +4,7 @@
 date_default_timezone_set('Etc/GMT-8');
 
 //设置根目录
-define("APP_PATH", realpath(dirname(__FILE__).'/../../'));
+define("APP_PATH", realpath(dirname(__FILE__).'/../'));
 
 //设置运行环境
 if (strpos(APP_PATH, 'tmsyhx.oicp.io') > 0) {
