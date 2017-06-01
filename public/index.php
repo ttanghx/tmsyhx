@@ -1,4 +1,7 @@
 <?php
+echo 'tmsyhx test';
+exit;
+
 
 //设置时区
 date_default_timezone_set('Etc/GMT-8');
